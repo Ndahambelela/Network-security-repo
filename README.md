@@ -1,24 +1,60 @@
-# Ecommerce-Website [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-The *Planet Shopify* is a ecommerce website.Developed using php in backend and mysql database and used html and bootstrap in frontend.
-Also used [formspree](https://formspree.io) in contact form.
+# NamZone
 
-## Technologies
-- [PHP](https://www.php.net/docs.php)
-- [Bootstrap](https://getbootstrap.com)
-- [MySQL](https://www.mysql.com)
-- [HTML](https://www.w3schools.com/html/default.asp)
-- [CSS](https://www.w3schools.com/css/default.asp)
+**NamZone** is a proudly Namibian platform dedicated to connecting sellers of quality second-hand goods with interested buyers across the country. Founded on the belief that everyone deserves affordable access to useful items, NamZone simplifies the process of buying and selling pre-owned products in a safe, transparent, and community-driven environment.
 
-[view screenshots](https://winston-dsouza.github.io/#projects)
+## Table of Contents
 
-![index](https://github.com/winston-dsouza/winston-dsouza.github.io/blob/master/images/ecom/productgif.gif)
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Built With](#built-with)
+- [How to Run the App on a Dev Server](#how-to-run-the-app-on-a-dev-server)
+- [Contact](#contact)
 
-## Set Up Instructions For Running Website
-- Start the Apache and MySQL modules using the **XAMPP** controller.
-- Open the **phpMyAdmin** and create a database **"ecommerce"**. 
-- Import the **ecommerce.sql** file present in the zip folder.
-- Open the htdocs folder in the xampp folder. Copy paste the folder **Planet-Shopify-ecommerce-website**.
-- Open the browser (chrome), type *localhost/Planet-Shopify-ecommerce-website* and you should see the index page of the website.
+---
 
+## Features
 
-*Note: In about.php in this [line](https://github.com/winston-dsouza/Planet-Shopify-ecommerce-website/blob/master/about.php#L71) enter your email* and activate the form
+- Secure seller and buyer registration
+- Listing and verification system for items
+- Admin dashboard for managing users and listings
+- Responsive design for mobile and desktop
+- Secure file upload for proof of identity, residence, and payments
+
+---
+
+## Screenshots
+
+---
+
+## Built With
+
+- **[PHP](https://www.php.net/):** Backend logic and server-side scripting
+- **[Bootstrap](https://getbootstrap.com/):** Frontend CSS framework for responsive UI
+- **[MySQL](https://www.mysql.com/):** Database system for storing user data and item listings
+- **[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML):** Markup structure for the web pages
+- **[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS):** Styling and layout
+- **[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript):** Interactivity and client-side functionality
+
+---
+
+## How to Run the App on a Dev Server
+
+1. Clone this repository to your local machine
+2. Make sure you have Apache, PHP, and MySQL (e.g., XAMPP, LAMP, or MAMP stack) installed
+3. Place the project folder in your web server's root directory (e.g., `htdocs` for XAMPP)
+4. Import the provided SQL file into your MySQL database using phpMyAdmin or the MySQL CLI
+5. Start Apache and MySQL services
+6. Open your browser and go to `http://localhost/ecommerce-website`
+
+---
+
+## Contact
+
+For any inquiries or support, please contact:  
+📧 **festushelaoshatipamba@gmail.com**
+
+---
+
+# Mini Project
+
+This project was developed as part of the Network Security mini project to digitalise NamZone’s operations.
